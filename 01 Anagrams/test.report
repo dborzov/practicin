@@ -1,0 +1,9 @@
+Naive timing
+real    1m20.328s
+user    1m20.280s
+sys 0m0.036s
+
+Now Union Find
+real    0m40.092s
+user    0m39.914s
+sys 0m0.022s
