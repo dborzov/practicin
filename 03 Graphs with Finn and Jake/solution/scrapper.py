@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
+"""
+    Goes through the wiki page with the list of episodes and scraps for 
+    episode names and wiki pages.
+"""
 import requests
 import re
 import json
@@ -28,8 +33,8 @@ for each in b:
 
 with codecs.open('episodes.csv', encoding='utf-8',mode='wb') as output_file:
     for eacher in actual_data:
-        c = re.search('<a href="(.+)"\s+ title="([\w\d\s\,\'\.!]+)">',eacher)
+        c = re.search('<a href="/wiki/([\w\.%]+)" title="([\w\d\s\,\'\.!]+)">',eacher)
         if c:
-            output_file.write(c.group(1) + '|' + c.group(2)+'\n')
-            print 'Episode: ', c.group(1)
+            output_file.write(c.group(1) + ' | ' + c.group(2)+'\n')
+            print 'Episode: ', c.group()
 
