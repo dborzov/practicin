@@ -3,6 +3,8 @@
 import requests
 import re
 import json
+import codecs
+
 
 config = json.loads(open("../problem/consts.json","rb").read())
 
@@ -15,10 +17,19 @@ def scrap_characters():
 
 
 r = requests.get(config['list_of_episodes_url'])
-source_html = r.text.rstrip().encode('utf-8')
-print source_html.encode('utf-8')
-episode_entries =  re.findall(u'<tr style="text-align: center; background: #f2f2f2">([.\n]+)</tr>',source_html)
+source_html = "".join(r.text.splitlines())
+# print source_html.encode('utf-8')
+b =  re.finditer(u'<tr style="text-align: center; background: #f2f2f2">',source_html)
+actual_data = []
+for each in b:
+    start_from = each.end()
+    ender = start_from + re.search('</tr>',source_html[start_from:]).start()
+    actual_data.append(source_html[start_from:ender])
 
-for episode in episode_entries:
-    print 'Heyo!'
-    print episode.encode('utf-8')
+with codecs.open('episodes.csv', encoding='utf-8',mode='wb') as output_file:
+    for eacher in actual_data:
+        c = re.search('<a href="(.+)"\s+ title="([\w\d\s\,\'\.!]+)">',eacher)
+        if c:
+            output_file.write(c.group(1) + '|' + c.group(2)+'\n')
+            print 'Episode: ', c.group(1)
+
