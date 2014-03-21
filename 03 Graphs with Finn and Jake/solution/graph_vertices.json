@@ -1,0 +1,995 @@
+{
+    "One Last Job": [
+        "Finn",
+        "Lady Rainicorn",
+        "Captain Banana Guard",
+        "BMO",
+        "Flying Lettuce Brothers",
+        "Gareth",
+        "Tiffany",
+        "Jake"
+    ],
+    "The Pods": [
+        "Finn",
+        "Baby Pigs",
+        "Mushroom People",
+        "Ice King",
+        "Jake",
+        "Gnome Knight"
+    ],
+    "Henchman": [
+        "Marceline",
+        "Duchess of Nuts",
+        "Skeleton Army",
+        "Eberhardt",
+        "Jake",
+        "Duke of Nuts"
+    ],
+    "Slumber Party Panic": [
+        "Fruit Witch",
+        "Candy People",
+        "Candy Person 2",
+        "Lady Rainicorn",
+        "Gumball Guardian",
+        "Manfried",
+        "Princess Bubblegum"
+    ],
+    "The Great Bird Man": [
+        "Goblins",
+        "Finn",
+        "Lady Rainicorn",
+        "Jake"
+    ],
+    "Hitman": [
+        "Finn",
+        "Scorcher",
+        "Ice King",
+        "Blastronaut",
+        "Jake",
+        "Lumpy Space Princess"
+    ],
+    "The Other Tarts": [
+        "Finn",
+        "Cinnamon Bun",
+        "Jake",
+        "Princess Bubblegum",
+        "Lumpy Space Princess",
+        "Butterfly With Laser Gun"
+    ],
+    "Holly Jolly Secrets Part I": [
+        "Finn",
+        "Ice King",
+        "Jake"
+    ],
+    "Hug Wolf": [
+        "Candy People",
+        "Margaret",
+        "Finn",
+        "BMO",
+        "Tree of Blight",
+        "Cinnamon Bun",
+        "Beautiful Lady",
+        "Jake"
+    ],
+    "The Silent King": [
+        "Goblins",
+        "Fuzzy Friends",
+        "Dragons",
+        "Finn",
+        "Gummy",
+        "Jake",
+        "Xergiok"
+    ],
+    "The Jiggler": [
+        "Jigglers",
+        "Finn",
+        "Stanley",
+        "Jake"
+    ],
+    "Reign of Gunters": [
+        "Finn",
+        "Forest Wizard",
+        "Gumball Guardian",
+        "Bufo",
+        "Gunter",
+        "Jake",
+        "Princess Bubblegum",
+        "Ice Penguin Monster"
+    ],
+    "Dad's Dungeon": [
+        "Fruit Witch",
+        "Evil Monster",
+        "Joshua",
+        "Finn",
+        "BMO",
+        "Dumb Rock",
+        "Hamburger Monster",
+        "Hot Dog Monster"
+    ],
+    "Billy's Bucket List": [
+        "Party Pat",
+        "Billy",
+        "Fear Feaster"
+    ],
+    "Princess Cookie": [
+        "Finn",
+        "Captain Banana Guard",
+        "Peppermint Butler",
+        "Doctor Princess",
+        "Stormo",
+        "Jake",
+        "Princess Bubblegum"
+    ],
+    "James": [
+        "Lady Rainicorn",
+        "Jake",
+        "Princess Bubblegum"
+    ],
+    "Incendium": [
+        "Finn",
+        "BMO",
+        "Flame King",
+        "Jake",
+        "Princess Bubblegum",
+        "Flambo"
+    ],
+    "Wizard Battle": [
+        "Finn",
+        "Ice King",
+        "Old Wizards",
+        "Bufo",
+        "Wizard Students",
+        "Abracadaniel",
+        "Jake",
+        "Grand Master Wizard",
+        "Princess Bubblegum"
+    ],
+    "Too Old": [
+        "Earl of Lemongrab",
+        "Cinnamon Bun",
+        "Princess Bubblegum",
+        "Cuber",
+        "Lemongrab 2"
+    ],
+    "Candy Streets": [
+        "Finn",
+        "BMO",
+        "Pete Sassafras",
+        "Ann",
+        "Petey",
+        "Jake",
+        "Princess Bubblegum",
+        "Lumpy Space Princess"
+    ],
+    "To Cut a Woman's Hair": [
+        "Finn",
+        "Tree Witch",
+        "Jake",
+        "Princess Bubblegum",
+        "Lumpy Space Princess"
+    ],
+    "Ocean of Fear": [
+        "Fire Newt",
+        "Three Wise Men",
+        "Fear Feaster",
+        "Jake"
+    ],
+    "Puhoy": [
+        "CMO",
+        "Finn",
+        "Roselinen",
+        "BMO",
+        "MOs",
+        "Ice King",
+        "Blanket Dragon",
+        "Quilton",
+        "Jake",
+        "Farmworld Finn"
+    ],
+    "Time Sandwich": [
+        "Magic Man",
+        "Moe",
+        "Candy Person 3",
+        "Finn",
+        "Lady Rainicorn",
+        "Mannish Man",
+        "BMO",
+        "Marceline",
+        "Prismo",
+        "Lorraine",
+        "Cinnamon Bun",
+        "Jake",
+        "Princess Bubblegum",
+        "Lumpy Space Princess"
+    ],
+    "Hot to the Touch": [
+        "Neptr",
+        "Tree of Blight",
+        "Jake"
+    ],
+    "Beautopia": [
+        "Finn",
+        "Lub Glubs",
+        "Jake"
+    ],
+    "Davey": [
+        "Candy People",
+        "Dragons",
+        "BMO",
+        "Jake"
+    ],
+    "Dream of Love": [
+        "Cinnamon Bun",
+        "Jake",
+        "Princess Bubblegum"
+    ],
+    "Video Makers": [
+        "Finn",
+        "BMO",
+        "Ice King",
+        "Jake",
+        "Snail",
+        "Princess Bubblegum",
+        "Lumpy Space Princess"
+    ],
+    "Vault of Bones": [
+        "Marceline",
+        "Ice King",
+        "Flame King",
+        "Jake",
+        "Lumpy Space Princess"
+    ],
+    "The Hard Easy": [
+        "Prince Huge",
+        "Talking Bush",
+        "Gnome Knight"
+    ],
+    "Sons of Mars": [
+        "Magic Man",
+        "Tiny Manticore",
+        "Margles",
+        "Finn",
+        "Banana Man",
+        "Grob Gob Glob Grod",
+        "Abraham Lincoln",
+        "Death",
+        "Stag",
+        "Jake"
+    ],
+    "Sky Witch": [
+        "Shoko",
+        "Finn",
+        "Gumball Guardian",
+        "Peppermint Butler",
+        "Cinnamon Bun",
+        "Jake",
+        "Princess Bubblegum",
+        "Ash"
+    ],
+    "Crystals Have Power": [
+        "Joshua",
+        "Abraham Lincoln",
+        "Crystal Guardian",
+        "Jermaine",
+        "Jake"
+    ],
+    "Five Short Graybles": [
+        "Finn",
+        "BMO",
+        "Ice King",
+        "Peppermint Butler",
+        "Cinnamon Bun",
+        "Gunter",
+        "Princess Bubblegum",
+        "Lumpy Space Princess",
+        "Cuber"
+    ],
+    "My Two Favorite People": [
+        "Shelby",
+        "Lady Rainicorn",
+        "Shark",
+        "BMO",
+        "Forest Wizard",
+        "Cloud People",
+        "Flying Lettuce Brothers",
+        "Science Cat",
+        "Gareth",
+        "Brad",
+        "Tiffany",
+        "Party Bears",
+        "Melissa",
+        "Jake",
+        "Lumpy Space Princess"
+    ],
+    "Slow Love": [
+        "Snorlock",
+        "BMO",
+        "Jake"
+    ],
+    "Ignition Point": [
+        "Furnius",
+        "Finn",
+        "Flame King",
+        "Jake",
+        "Snail",
+        "Lumpy Space Princess",
+        "Torcho",
+        "Flambo"
+    ],
+    "Be More": [
+        "CMO",
+        "Moe",
+        "Finn",
+        "BMO",
+        "MOs",
+        "Jake",
+        "Snail"
+    ],
+    "The Suitor": [
+        "Ogdoad",
+        "Gumball Guardian",
+        "Peppermint Butler",
+        "Guardian Angel",
+        "Cinnamon Bun",
+        "Princess Bubblegum",
+        "The Beast"
+    ],
+    "Bad Timing": [
+        "Woobeewoo Villagers",
+        "Finn",
+        "Manfried",
+        "Brad",
+        "Jake",
+        "Princess Bubblegum"
+    ],
+    "Return to the Nightosphere": [
+        "Demons",
+        "Finn",
+        "Hunson Abadeer",
+        "Marceline",
+        "Peppermint Butler",
+        "Jake"
+    ],
+    "Trouble in Lumpy Space": [
+        "Brad",
+        "Melissa",
+        "Snail",
+        "Princess Bubblegum",
+        "Lumpy Space Princess"
+    ],
+    "Up a Tree": [
+        "Finn",
+        "Lady Rainicorn",
+        "Jake"
+    ],
+    "The Limit": [
+        "Hot Dog Knights",
+        "Finn",
+        "Jake",
+        "Aquandrius",
+        "Ancient Psychic Tandem War Elephant"
+    ],
+    "Ricardio the Heart Guy": [
+        "Finn",
+        "Balloons",
+        "Gumball Guardian",
+        "Jake",
+        "Princess Bubblegum",
+        "Lumpy Space Princess",
+        "Ricardio"
+    ],
+    "The Real You": [
+        "Choose Goose",
+        "Peppermint Butler",
+        "Jake",
+        "Princess Bubblegum",
+        "Chet",
+        "Flambo"
+    ],
+    "The Eyes": [
+        "Ice King",
+        "Jake"
+    ],
+    "King Worm": [
+        "Shoko",
+        "Joshua",
+        "Lady Rainicorn",
+        "Marceline",
+        "Earl of Lemongrab",
+        "Ice King",
+        "Peppermint Butler",
+        "Phil",
+        "Fear Feaster",
+        "Farmworld Finn",
+        "Princess Bubblegum",
+        "Lumpy Space Princess",
+        "Ice Penguin Monster"
+    ],
+    "Too Young": [
+        "Candy People",
+        "Lemon Camel",
+        "Finn",
+        "BMO",
+        "Grob Gob Glob Grod",
+        "Earl of Lemongrab",
+        "Abraham Lincoln",
+        "Manfried",
+        "Peppermint Butler",
+        "Jake",
+        "Princess Bubblegum"
+    ],
+    "Web Weirdos": [
+        "Finn",
+        "Barb",
+        "Ed",
+        "Jake"
+    ],
+    "Red Starved": [
+        "Finn",
+        "Marceline",
+        "Jake"
+    ],
+    "What Was Missing": [
+        "Shelby",
+        "BMO",
+        "Marceline",
+        "Jake",
+        "Princess Bubblegum",
+        "Door Lord"
+    ],
+    "Lemonhope Part 2": [
+        "Finn",
+        "Pup Gang",
+        "Earl of Lemongrab",
+        "Jake",
+        "Princess Bubblegum",
+        "Lemongrab 2"
+    ],
+    "Lemonhope Part 1": [
+        "Candy Person 3"
+    ],
+    "Thank You": [
+        "Fire Wolf Pup",
+        "Snow Golem",
+        "Finn",
+        "Ice King",
+        "Fire Wolves",
+        "Jake",
+        "Princess Bubblegum"
+    ],
+    "The Monster": [
+        "Lumpy Space King",
+        "Finn",
+        "Frog",
+        "BMO",
+        "Marceline",
+        "Fat Villagers",
+        "Jake",
+        "Snail",
+        "Lumpy Space Princess"
+    ],
+    "Blade of Grass": [
+        "Choose Goose",
+        "Finn",
+        "Jake"
+    ],
+    "Still": [
+        "Finn",
+        "Ice King",
+        "Gunter",
+        "Jake"
+    ],
+    "We Fixed a Truck": [
+        "Banana Man",
+        "Giant Goo Skull",
+        "Jake"
+    ],
+    "The Vault": [
+        "Shoko",
+        "Candy People",
+        "Finn",
+        "BMO",
+        "Marceline",
+        "Gumball Guardian",
+        "Peppermint Butler",
+        "Jake"
+    ],
+    "A Glitch is a Glitch": [
+        "Candy People",
+        "Candy Person 2",
+        "Finn",
+        "Mirror Finns",
+        "Princess Bubblegum"
+    ],
+    "Memories of Boom Boom Mountain": [
+        "Mountain Man",
+        "Dragons",
+        "Finn",
+        "Electroids",
+        "Jake",
+        "Naked Wizard",
+        "Marauders"
+    ],
+    "Jake Suit": [
+        "Finn",
+        "BMO",
+        "Fire Wolves",
+        "Clown Nurse",
+        "Jake"
+    ],
+    "You Made Me": [
+        "Candy People",
+        "Candy Person 2",
+        "Finn",
+        "Scorcher",
+        "Pup Gang",
+        "Earl of Lemongrab",
+        "Peppermint Butler",
+        "Jake",
+        "Crunchy",
+        "Lemongrab 2"
+    ],
+    "Mystery Dungeon": [
+        "Shelby",
+        "Neptr",
+        "Marceline",
+        "Earl of Lemongrab"
+    ],
+    "Blood Under the Skin": [
+        "Ghost Man",
+        "Sir Slicer",
+        "Lyre Player",
+        "Knights",
+        "Jake",
+        "Snail"
+    ],
+    "Death in Bloom": [
+        "Finn",
+        "Death",
+        "Peppermint Butler",
+        "Jake",
+        "Princess Bubblegum"
+    ],
+    "The Duke": [
+        "Marquis of Nuts",
+        "Lumpy Space King",
+        "Finn",
+        "Marceline",
+        "Earl of Lemongrab",
+        "Duchess of Nuts",
+        "Jake",
+        "Princess Bubblegum",
+        "Duke of Nuts",
+        "Ricardio"
+    ],
+    "Conquest of Cuteness": [
+        "Margaret",
+        "Finn",
+        "BMO",
+        "Ice King",
+        "Cinnamon Bun",
+        "Cuties",
+        "Lumpy Space Princess"
+    ],
+    "Daddy's Little Monster": [
+        "Demons",
+        "Hunson Abadeer",
+        "BMO",
+        "Marceline",
+        "Jake"
+    ],
+    "Her Parents": [
+        "Goblins",
+        "Lady Rainicorn",
+        "BMO",
+        "Bob Rainicorn",
+        "Jake"
+    ],
+    "Memory of a Memory": [
+        "Tiny Goblin",
+        "Hunson Abadeer",
+        "Marceline",
+        "Ice King",
+        "Jake",
+        "Ash"
+    ],
+    "Go With Me": [
+        "Finn",
+        "Lady Rainicorn",
+        "Marceline",
+        "Princess Bubblegum"
+    ],
+    "Holly Jolly Secrets Part II": [
+        "Shelby",
+        "Simon",
+        "Finn",
+        "Ice King",
+        "Snow Men",
+        "Gunter",
+        "Jake",
+        "Farmworld Finn",
+        "Lumpy Space Princess"
+    ],
+    "Beyond this Earthly Realm": [
+        "Finn",
+        "Ice King",
+        "Jake"
+    ],
+    "Bad Little Boy": [
+        "Finn",
+        "BMO",
+        "Grob Gob Glob Grod",
+        "Marceline",
+        "Ice King",
+        "Soft People",
+        "Gunter"
+    ],
+    "Loyalty to the King": [
+        "Finn",
+        "Ice King",
+        "Jake",
+        "Lumpy Space Princess"
+    ],
+    "Play Date": [
+        "Magic Man",
+        "Pterodactyl",
+        "BMO",
+        "Ice King",
+        "Abracadaniel",
+        "Jake"
+    ],
+    "Apple Wedding": [
+        "Magic Man",
+        "Finn",
+        "BMO",
+        "Charlie",
+        "Kim Kil Whan",
+        "Cinnamon Bun",
+        "Princess Bubblegum",
+        "Lumpy Space Princess"
+    ],
+    "The Creeps": [
+        "Shoko",
+        "Lady Rainicorn",
+        "BMO",
+        "Cinnamon Bun",
+        "Brad",
+        "Jake",
+        "Princess Bubblegum",
+        "Lumpy Space Princess"
+    ],
+    "Business Time": [
+        "Fuzzy Friends",
+        "Battle Cube",
+        "BMO",
+        "Ice King",
+        "Business Men",
+        "Swamp Giant",
+        "Jake",
+        "Princess Bubblegum",
+        "Lumpy Space Princess",
+        "Flambo"
+    ],
+    "Mortal Folly": [
+        "Billy",
+        "Finn",
+        "Lady Rainicorn",
+        "Ice King",
+        "Jake",
+        "Snail",
+        "Farmworld Finn",
+        "Princess Bubblegum"
+    ],
+    "Jake the Dad": [
+        "Margaret",
+        "Finn",
+        "Lady Rainicorn",
+        "Charlie",
+        "Kim Kil Whan"
+    ],
+    "In Your Footsteps": [
+        "Candy People",
+        "Finn",
+        "BMO",
+        "Bear",
+        "MOs",
+        "Peppermint Butler",
+        "Cinnamon Bun",
+        "Jake",
+        "Snail",
+        "Princess Bubblegum"
+    ],
+    "Princess Potluck": [
+        "Ice King",
+        "Gunthalina"
+    ],
+    "Love Games": [
+        "Finn",
+        "Ice King",
+        "Blargetha",
+        "Jake"
+    ],
+    "Burning Low": [
+        "The Morrow",
+        "Finn",
+        "Lady Rainicorn",
+        "President Porpoise",
+        "Flame King",
+        "Jake",
+        "Lumpy Space Princess",
+        "Marauders"
+    ],
+    "His Hero": [
+        "Townspeople",
+        "Dragons",
+        "Cobbler",
+        "Fine Lady",
+        "Bear",
+        "Mini Queen",
+        "Jake",
+        "Lumpy Space Princess"
+    ],
+    "From Bad to Worse": [
+        "Candy People",
+        "Finn",
+        "Lady Rainicorn",
+        "Cinnamon Bun",
+        "Jake",
+        "Princess Bubblegum",
+        "Lumpy Space Princess",
+        "Science"
+    ],
+    "Belly of the Beast": [
+        "Party Pat",
+        "Jake",
+        "Monster"
+    ],
+    "I Remember You": [
+        "Finn",
+        "Hunson Abadeer",
+        "Grob Gob Glob Grod",
+        "Marceline",
+        "Ice King",
+        "Gunter",
+        "Jake",
+        "Princess Bubblegum"
+    ],
+    "Rainy Day Daydream": [
+        "Margaret",
+        "Finn",
+        "Lady Rainicorn",
+        "Penguins",
+        "Lyre Player",
+        "Jake",
+        "Bellamy Bug"
+    ],
+    "The Pit": [
+        "Shelby",
+        "Lady Rainicorn",
+        "BMO"
+    ],
+    "Root Beer Guy": [
+        "Finn",
+        "Ogre",
+        "Candy Person 10",
+        "Jake",
+        "Princess Bubblegum"
+    ],
+    "All Your Fault": [
+        "Finn",
+        "Earl of Lemongrab",
+        "Jake",
+        "Princess Bubblegum",
+        "Lemongrab 2"
+    ],
+    "No One Can Hear You": [
+        "Candy People",
+        "Finn",
+        "Lady Rainicorn",
+        "Peppermint Butler",
+        "Stag",
+        "Jake",
+        "Princess Bubblegum"
+    ],
+    "When Wedding Bells Thaw": [
+        "Finn",
+        "Ice King",
+        "Jake"
+    ],
+    "All the Little People": [
+        "Lemon Camel",
+        "Magic Man",
+        "Choose Goose",
+        "Candy Person 3",
+        "Finn",
+        "Lady Rainicorn",
+        "Hunson Abadeer",
+        "BMO",
+        "Marceline",
+        "Earl of Lemongrab",
+        "Ice King",
+        "Abracadaniel",
+        "Jake",
+        "Princess Bubblegum",
+        "Lumpy Space Princess"
+    ],
+    "Card Wars": [
+        "Lady Rainicorn",
+        "BMO",
+        "Jake"
+    ],
+    "Another Five More Short Graybles": [
+        "Finn",
+        "Earl of Lemongrab",
+        "Ice King",
+        "Penguins",
+        "Lemongrab 2"
+    ],
+    "The New Frontier": [
+        "Cosmic Owl",
+        "Finn",
+        "Banana Man",
+        "Jake"
+    ],
+    "The Chamber of Frozen Blades": [
+        "Finn",
+        "Ice King",
+        "Doctor Princess",
+        "Rock People",
+        "Gunter",
+        "Jake",
+        "Flambo"
+    ],
+    "Another Way": [
+        "Forest Cyclops",
+        "Talking Bush",
+        "Finn",
+        "Electric Eel",
+        "Rainy",
+        "Tree Stump With Sign",
+        "Clown Nurse",
+        "Pan",
+        "Jake"
+    ],
+    "It Came from the Nightosphere": [
+        "Fuzzy Friends",
+        "Finn",
+        "Hunson Abadeer",
+        "Marceline",
+        "Ice King",
+        "Penguins",
+        "Gunter",
+        "Lumpy Space Princess",
+        "Marauders"
+    ],
+    "Mystery Train": [
+        "Candy People",
+        "Finn",
+        "Ice King",
+        "Candy Person 10",
+        "Gunter",
+        "Jake",
+        "Princess Bubblegum"
+    ],
+    "Fionna and Cake": [
+        "Candy People",
+        "Finn",
+        "Ice King",
+        "Jake",
+        "Princess Bubblegum"
+    ],
+    "BMO Noire": [
+        "Finn",
+        "Bebe",
+        "Lady Rainicorn",
+        "Neptr",
+        "Lorraine",
+        "Jake",
+        "Ronnie"
+    ],
+    "Animated short": [
+        "Snow Golem",
+        "Finn",
+        "Lady Rainicorn",
+        "Abraham Lincoln",
+        "Ice King",
+        "Penguins",
+        "Old Man",
+        "Iceclops",
+        "Fire Elemental",
+        "Jake",
+        "Princess Bubblegum",
+        "Ninjas"
+    ],
+    "Marceline's Closet": [
+        "Marceline",
+        "Spider",
+        "Jake"
+    ],
+    "Prisoners of Love": [
+        "Cosmic Owl",
+        "Snow Golem",
+        "Ice King",
+        "Penguins",
+        "Iceclops",
+        "Jake",
+        "Lumpy Space Princess"
+    ],
+    "Morituri Te Salutamus": [
+        "Finn",
+        "Jake",
+        "Gladiator Ghost",
+        "Fight King"
+    ],
+    "Apple Thief": [
+        "Finn",
+        "Lady Rainicorn",
+        "Gumball Guardian",
+        "Jake"
+    ],
+    "Five More Short Graybles": [
+        "Finn",
+        "Banana Man",
+        "BMO",
+        "Marceline",
+        "Earl of Lemongrab",
+        "Ice King",
+        "Cinnamon Bun",
+        "Wizard Bill",
+        "Gunter",
+        "Jake"
+    ],
+    "Storytelling": [
+        "Boobafina",
+        "Finn",
+        "Forest Wizard",
+        "Momma Bear",
+        "Jake",
+        "Snail",
+        "Teenage Bear"
+    ],
+    "Power Animal": [
+        "Nymph",
+        "Simon",
+        "Finn",
+        "BMO",
+        "Marceline",
+        "Cinnamon Bun",
+        "Gnome Ruler",
+        "Princess Bubblegum"
+    ],
+    "Mortal Recoil": [
+        "Finn",
+        "Nurse Pound Cake",
+        "Ice King",
+        "Peppermint Butler",
+        "Doctor Princess",
+        "Jake",
+        "Snail"
+    ],
+    "Rattleballs": [
+        "Finn",
+        "Gumball Guard"
+    ],
+    "BMO Lost": [
+        "Finn",
+        "Sir Slicer",
+        "Jake"
+    ],
+    "The Red Throne": [
+        "Finn",
+        "Fire Wolves",
+        "Cinnamon Bun",
+        "Flame King",
+        "Princess Bubblegum"
+    ],
+    "Who Would Win": [
+        "Forest Cyclops",
+        "Lady Rainicorn",
+        "Marceline",
+        "Tiffany",
+        "Dream Warrior",
+        "Lumpy Space Princess",
+        "Marauders"
+    ]
+}
