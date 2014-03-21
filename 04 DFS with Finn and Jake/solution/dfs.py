@@ -20,7 +20,7 @@ def DFS(character_link):
     discovered_characters[character_link] = logger
     for adjacent_character, link_episode in edges(character_link):
         if adjacent_character not in discovered_characters:
-            logger += '----via ' +  link_episode + '\n'
+            logger += '----from %s via %s to \n' % (character_link, link_episode)
             DFS(adjacent_character)
 
 
