@@ -1,5 +1,6 @@
 *.py[cod]
-
+stop_times.txt
+06\ Dijkstra\ buses/solution/pickles/distances.pickle
 # C extensions
 *.so
 
