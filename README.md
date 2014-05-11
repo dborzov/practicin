@@ -3,6 +3,9 @@ practice
 
 Practicin'
 
+Queue
+* the longest common subsequence problem if the source string does not fit in memory.
+
 General
 
     *Find the most frequent integer in an array
