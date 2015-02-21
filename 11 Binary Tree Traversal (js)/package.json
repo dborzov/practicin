@@ -1,0 +1,22 @@
+{
+  "name": "treeTraversal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "traverseBinaryTree.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/tap ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/dborzov/graphs"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dborzov/graphs/issues"
+  },
+  "homepage": "https://github.com/dborzov/graphs"
+}
