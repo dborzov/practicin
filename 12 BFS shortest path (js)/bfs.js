@@ -5,7 +5,7 @@ module.exports.bfs = function(graph, start, finish) {
 	visitAdjNodes = function(i) {
 		var adj = [];
 		for (var j=0; j< graph[i].length; j++) {
-			if (graph[i][j] === 1 && i !== j && !dist[j]) {
+			if (graph[i][j] === 1 && !dist[j]) {
 				adj.push(j);
 				// if not visited, shortest distance
 				dist[j] = dist[i].concat([j]);
