@@ -4,6 +4,8 @@ stop_times.txt
 # C extensions
 *.so
 
+node_modules/
+
 # Packages
 *.egg
 *.egg-info
