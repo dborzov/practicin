@@ -9,3 +9,13 @@ var graph = [
 ];
 
 console.log("Distances to things: ", bfs(graph,0,3));
+
+var graph = [[1, 1, 0, 0, 1, 0],
+			[1, 0, 1, 0, 1, 0],
+			[0, 1, 0, 1, 0, 0],
+			[0, 0, 1, 0, 1, 1],
+			[1, 1, 0, 1, 0, 0],
+			[0, 0, 0, 1, 0, 0]
+];
+
+console.log("Distances to things: ", bfs(graph,0,4));

@@ -17,10 +17,8 @@ module.exports.bfs = function(graph, start, finish) {
 	var queue = visitAdjNodes(start);
 
 	while (queue.length >0) {
-		console.log("enter with queue: ", queue);
 		el = queue.pop();
 		queue = visitAdjNodes(el).concat(queue);
-		console.log("exit with: ", el);
 	}
 
 	return dist[finish];
