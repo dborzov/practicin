@@ -23,8 +23,14 @@ draw = function(tree) {
 	}];
 	for (var d=h; d > 0; d--) {
 		var line = new Array(Width + 1).join(" ");
+		if (d>1) {
+			span = Math.pow(2,(d-2));
+		} else {
+			span = 0;
+		}
+		spanLine = new Array(span + 1).join("-");
 		nodes.forEach(function(el){
-			line = line.substr(0, el.pos) + el.n.val + line.substr(el.pos + 1);
+			line = line.substr(0, el.pos - span) + spanLine + el.n.val + spanLine + line.substr(el.pos + span + 1);
 		});
 		console.log("|" + line + "|");
 		
@@ -33,7 +39,7 @@ draw = function(tree) {
              if (el.n.right) {
              	nNodes.push({
              		n: el.n.right,
-             		pos:el.pos + (Math.pow(2,(d-2)))
+             		pos: el.pos + (Math.pow(2,(d-2)))
              	});
              }
 
