@@ -16,9 +16,35 @@ getHeight = function(node) {
 
 draw = function(tree) {
 	h = getHeight(tree);
-	Width = 2**h - 1;
-	for (d:=0;d < h; d++) {
-		console.log();
+	Width = Math.pow(2,h) - 1;
+	nodes = [{
+		n: tree,
+		pos: Math.pow(2,(h-1)) -1
+	}];
+	for (var d=h; d > 0; d--) {
+		var line = new Array(Width + 1).join(" ");
+		nodes.forEach(function(el){
+			line = line.substr(0, el.pos) + el.n.val + line.substr(el.pos + 1);
+		});
+		console.log("|" + line + "|");
+		
+		var nNodes = [];
+		nodes.forEach(function(el) {
+             if (el.n.right) {
+             	nNodes.push({
+             		n: el.n.right,
+             		pos:el.pos + (Math.pow(2,(d-2)))
+             	});
+             }
+
+              if (el.n.left) {
+             	nNodes.push({
+             		n: el.n.left,
+             		pos:el.pos - (Math.pow(2,(d-2)))
+             	});
+             }
+		});
+		nodes = nNodes;
 	}
 
 }
