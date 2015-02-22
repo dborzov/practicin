@@ -16,5 +16,14 @@ func (x BitInt) GetBit(n uint32) bool{
 }
 
 func (x BitInt) String() string {
-   return "hi";
+	out := "["
+	for i:=uint32(0); i<32; i++ {
+		if x.GetBit(i) {
+			out = out + "1"
+		} else {
+			out = out + "0"
+		}
+	}
+	out = out + "]"
+    return out;
 }
