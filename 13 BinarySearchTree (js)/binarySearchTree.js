@@ -21,6 +21,7 @@ draw = function(tree) {
 		n: tree,
 		pos: Math.pow(2,(h-1)) -1
 	}];
+	console.log(new Array(Width + 3).join("="));
 	for (var d=h; d > 0; d--) {
 		var line = new Array(Width + 1).join(" ");
 		if (d>1) {
@@ -52,6 +53,7 @@ draw = function(tree) {
 		});
 		nodes = nNodes;
 	}
+	console.log(new Array(Width + 3).join("="));
 
 }
 
