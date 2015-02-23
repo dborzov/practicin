@@ -7,42 +7,75 @@ console.log("Array:", sortedArray1);
 draw(tree);
 
 // reformulate in-order traversal with explicit stack
-stack = [{
+continueTraversing = function(stack) {
+	while(stack.length >0) {
+		var el = stack[stack.length -1];
+
+		// left node was not checked out yet
+		if (!el.left) {
+			el.left = true;
+			if (el.p.left) {
+				el.p.left.parentLeft = el.p;
+				stack.push({
+					left: false,
+					right: false,
+				p: el.p.left}
+				);
+			}
+	 		continue;
+		}
+
+		if (!el.right) {
+			console.log("print value: ", el.p.val);
+			el.right = true;
+			if (el.p.right) {
+				el.p.right.parentRight = el.p;
+				stack.push({
+					left: false,
+					right: false,
+					p: el.p.right
+				});
+			}
+			continue
+		}
+
+		// if (el.right && el.left)
+		stack.pop();
+	}
+};
+
+continueTraversing([{
 	left: false,
 	right: false,
 	p: tree
+}]);
+
+sel = tree.left.right.right;
+console.log("Selected node is: ", sel.val);
+
+stack = [{
+	left:true,
+	right: false,
+	p: sel
 }];
 
-
-while(stack.length >0) {
-	var el = stack[stack.length -1];
-
-	// left node was not checked out yet
-	if (!el.left) {
-		el.left = true;
-		if (el.p.left) {
-			stack.push({
-				left: false,
-				right: false,
-			p: el.p.left}
-			);
-		}
- 		continue;
+while(sel.parentLeft || sel.parentRight) {
+	if (sel.parentLeft) {
+		stack.unshift({
+			left:true,
+			right:false,
+			p:sel.parentLeft
+		});
+		sel = sel.parentLeft;
+	} else {
+		stack.unshift({
+			left:true,
+			right:true,
+			p:sel.parentRight
+		});
+		sel = sel.parentRight;
 	}
-
-	if (!el.right) {
-		console.log("print value: ", el.p.val);
-		el.right = true;
-		if (el.p.right) {
-			stack.push({
-				left: false,
-				right: false,
-				p: el.p.right
-			});
-		}
-		continue
-	}
-
-	// if (el.right && el.left)
-	stack.pop();
 }
+
+console.log("~~~~~~~~~~~~~~~~~~~~")
+continueTraversing(stack);
