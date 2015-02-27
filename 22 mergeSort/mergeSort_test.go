@@ -16,3 +16,14 @@ func TestMerge(t *testing.T) {
 		t.Error(fmt.Sprintf("Merge %#v & %#v, get %#v or %#v \n", a1, a2, res, other))
 	}
 }
+
+func TestSmallSort(t *testing.T) {
+	a1:= []int{6,5}
+	fmt.Printf("sort %#v to get %#v \n", a1, sort(a1))
+}
+
+
+func TestSort(t *testing.T) {
+	a1:= []int{56,345,34,77,22,23,90,1,2,8,88,75,6,5}
+	fmt.Printf("sort %#v to get %#v \n", a1, sort(a1))
+}
