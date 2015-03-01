@@ -1,13 +1,15 @@
 package waterfill
 
-import "fmt"
 
 func GetVolume(levs []int) int {
-	waters := make([]int, len(levs))
-	markHighestInterval(levs, waters, 0, len(levs)-1)
-	return computeVolume(levs, waters)
+	return computeVolume(levs, getWaterLevels(levs))
 }
 
+func getWaterLevels(levs []int) []int {
+	waters := make([]int, len(levs))
+	markHighestInterval(levs, waters, 0, len(levs)-1)
+	return waters
+}
 
 
 func computeVolume(levs, water []int) (out int) {
