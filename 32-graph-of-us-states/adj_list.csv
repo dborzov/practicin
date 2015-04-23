@@ -1,0 +1,50 @@
+NV,California,Arizona,UT,ID,OR
+OR,California,NV,ID,WA
+TX,Oklahoma,LA,New Mexico,AR
+DC,VA,MD
+FL,GA,AL
+RI,MA,CT
+SC,GA,NC
+WA,OR,ID
+California,NV,OR,Arizona
+CT,RI,MA,NY
+DE,MD,PA,NJ
+LA,TX,MS,AR
+MI,IN,OH,WI
+ND,SD,MN,MT
+NH,ME,VT,MA
+NJ,NY,PA,DE
+VT,NH,MA,NY
+AL,GA,MS,TN,FL
+Arizona,California,New Mexico,UT,NV
+IN,OH,MI,IL,Kentucky
+KS,Oklahoma,CO,Missouri,NE
+MD,DE,PA,VA,WV
+MN,WI,IA,SD,ND
+MS,AL,LA,AR,TN
+MT,ID,WY,SD,ND
+NC,SC,VA,TN,GA
+New Mexico,TX,Arizona,CO,Oklahoma
+WI,IL,MI,IA,MN
+GA,FL,SC,NC,AL,TN
+IL,IA,WI,IN,Kentucky,Missouri
+MA,VT,NH,NY,RI,CT
+NV,California,Arizona,UT,ID,OR
+NY,NJ,VT,PA,MA,CT
+OH,IN,WV,PA,Kentucky,MI
+UT,CO,WY,ID,NV,Arizona
+VA,WV,MD,NC,TN,Kentucky
+WV,VA,OH,PA,MD,Kentucky
+AR,TX,LA,Oklahoma,Missouri,TN,MS
+CO,UT,WY,New Mexico,NE,KS,Oklahoma
+IA,IL,WI,MN,SD,NE,Missouri
+ID,WA,OR,NV,UT,WY,MT
+NE,KS,CO,WY,SD,IA,Missouri
+Oklahoma,TX,CO,KS,New Mexico,AR,Missouri
+PA,WV,DE,MD,NJ,NY,OH
+SD,ND,MT,WY,NE,IA,MN
+WY,MT,ID,UT,CO,NE,SD
+Kentucky,IL,Missouri,TN,VA,WV,OH,IN
+Missouri,IA,NE,KS,Oklahoma,AR,TN,Kentucky,IL
+TN,Kentucky,Missouri,AR,MS,AL,GA,NC,VA
+ME,NH
