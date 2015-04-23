@@ -3,9 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	var string1, string2 string
-	fmt.Scanf("%v\n%v", &string1, &string2)
-	fmt.Printf("* Longest Common Subsequence: \"%s\" \n", LCS(string1, string2))
+	var P, Q string
+	fmt.Scanf("%v\n%v", &P, &Q)
+	fmt.Printf("Behold: %#s || %#s\n", P,Q)
+	fmt.Printf("* Longest Common Subsequence: \"%s\" \n", LCS(P, Q))
 }
 
 
@@ -25,6 +26,7 @@ func LCS(P, Q string) string {
 
 		upper := subproblem(i-1, j)
 		lefter := subproblem(i, j-1)
+		backwards := subproblem(i-1, j-1)
 
 		cur := lefter
 		if len(upper) > len(lefter) {
@@ -32,10 +34,11 @@ func LCS(P, Q string) string {
 		}
 
 		if P[i] == Q[j] {
-			cur = cur + string(P[i])
+			cur = backwards + string(P[i])
 		}
 
 		memoizer[string(i) + "&" + string(j)] = cur
+		fmt.Printf("memoing [%v,%v]=%#s\n",P[:i+1],Q[:j+1],cur)
 		return cur
 	}
 
