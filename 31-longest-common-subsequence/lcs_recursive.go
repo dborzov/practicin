@@ -9,36 +9,35 @@ func main() {
 }
 
 
-var memoizer = make(map[string]string)
 
 
 func LCS(P, Q string) string {
-	return subproblem(P,Q,len(P)-1, len(Q)-1)
-}
+	var memoizer = make(map[string]string)
+	var subproblem func (i, j int) string
+	subproblem = func(i, j int) string {
+		if val, ok := memoizer[string(i) + "&" + string(j)]; ok {
+			return val
+		}
 
+		if i < 0 || j < 0 {
+			return ""
+		}
 
-func subproblem(P,Q string, i, j int) string {
-	if val, ok := memoizer[string(i) + "&" + string(j)]; ok {
-		return val
+		upper := subproblem(i-1, j)
+		lefter := subproblem(i, j-1)
+
+		cur := lefter
+		if len(upper) > len(lefter) {
+			cur = upper
+		}
+
+		if P[i] == Q[j] {
+			cur = cur + string(P[i])
+		}
+
+		memoizer[string(i) + "&" + string(j)] = cur
+		return cur
 	}
 
-	if i < 0 || j < 0 {
-		return ""
-	}
-
-	upper := subproblem(P,Q, i-1, j)
-	lefter := subproblem(P,Q, i, j-1)
-
-	cur := lefter
-	if len(upper) > len(lefter) {
-		cur = upper
-	}
-
-	if P[i] == Q[j] {
-		cur = cur + string(P[i])
-	}
-
-	memoizer[string(i) + "&" + string(j)] = cur
-	return cur
-
+	return subproblem(len(P)-1, len(Q)-1)
 }
