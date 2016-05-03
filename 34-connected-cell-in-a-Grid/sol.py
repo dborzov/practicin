@@ -16,46 +16,56 @@ for _ in range(M):
     A.append(cur_row)
 
 head = {}
+island_sizes = {}
+
 
 def key(pair):
     return ",".join((str(pair[0]),str(pair[1])))
 
-greatest_size = 0
+def get_head(pair):
+    cur = pair
+    while cur != head[cur]:
+        cur = head[cur]
+    return cur
+
+def union(a,b):
+    head_a = get_head(a)
+    head_b = get_head(b)
+    if head_a == head_b:
+        return head_a
+    if island_sizes[head_a] >= island_sizes[head_b]:
+        eaten = head_a
+        eater = head_b
+    else:
+        eaten = head_b
+        eater = head_a
+    island_sizes[eater] += island_sizes[eaten]
+    head[a] = eater
+    head[b] = eater
+    head[head_a] = eater
+    head[head_b] = eater
+    del island_sizes[eaten]
+    return eater
+
+
+
+
 for i, row in enumerate(A):
     for j, val in enumerate(row):
         if not val:
             continue
         neighbours = [(i-1,j), (i, j-1), (i-1, j-1), (i-1, j+1)]
-        total_size = 1
-        cur_head = {
-            "head": key((i,j)),
-            "size": 0
-        }
+        cur = key((i,j))
+        head[cur] = cur
+        island_sizes[cur] = 1
 
         for dot in neighbours:
             if not key(dot) in head:
                 continue
-            island = head[key(dot)]
-            if island["head"] == cur_head["head"]:
-                continue
-            total_size += island["size"]
-            if island["size"] >= cur_head["size"]:
-                cur_head = {
-                    "head": island["head"],
-                    "size": island["size"]
-                }
+            cur = union(cur, key(dot))
+            if not cur:
+                import pdb; pdb.set_trace()
 
-        cur_head['size'] = total_size
-        if total_size > greatest_size:
-            greatest_size = total_size
-        # import pdb; pdb.set_trace()
-        head[key((i,j))] = cur_head
-        for dot in neighbours:
-            if not key(dot) in head:
-                continue
-            head[key(dot)] = cur_head
 
-print 'A: %s' % A
-print greatest_size
-for key, val in head.iteritems():
-    print 'Heads: %s ---  %s ' % (key, val)
+# print 'A: %s' % A
+print max(island_sizes.values())
