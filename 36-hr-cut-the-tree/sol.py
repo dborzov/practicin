@@ -1,39 +1,30 @@
-a = raw_input()
-inputer = open("sample.in", "rb")
+import sys
+sys.setrecursionlimit(100000)
+
+inputer = open("input07.in", "rb")
+
 def readline():
     return inputer.readline().rstrip()
 
+print "loading nodes..."
 num_vertex = int(readline())
 vertices =  [int(val) for val in readline().split(" ")]
 edges = {}
+print "loading edges..."
 for _ in range(num_vertex-1):
     v1, v2 = [int(val)-1 for val in readline().split(" ")]
     edges[v1] = edges.get(v1, []) + [v2]
     edges[v2] = edges.get(v2, []) + [v1]
 
-visited = {}
-def visit(position):
-    visited[position] = True
-    children = [(child, visit(child)) for child in edges[position] if not child in visited]
-    total = vertices[position] + sum([weight for _child, weight in children])
-    return total
 
-total_top = visit(0)
-print 'total weight: ', total_top
-best_diff = 9999999999999
-visited = {}
-def traverse_diffs(position):
-    global best_diff
-    visited[position] = True
-    children = [(child, traverse_diffs(child)) for child in edges[position] if not child in visited]
-    for child, weight in children:
-        diff = abs(total_top - 2*weight)
-        if best_diff > diff:
-            best_diff = diff
-    total = vertices[position] + sum([weight for _child, weight in children])
-    return total
-
-traverse_diffs(0)
-print 'lowest diff: ', best_diff
-
-(1608)
+weights = [val for val in vertices]
+visited = {0: True}
+queue = [0]
+while len(queue) > 0:
+    cur = queue[0]
+    queue = queue[1:]
+    for child in edge[cur]:
+        if child in visited:
+            continue
+        queue.append(child)
+        visited[child] = True
